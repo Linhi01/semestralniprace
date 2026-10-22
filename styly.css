@@ -1,0 +1,67 @@
+body {
+            margin: 0;
+            background-color: #101522;
+            color: #e9edf5;
+            font-family: Arial, sans-serif;
+        }
+
+        .topbar {
+            background: #0d1320;
+            border-bottom: 1px solid #1d2738;
+            padding: 10px 30px;
+        }
+
+        .logo {
+
+        }
+
+        .page {
+            max-width: 100%;
+            margin: 0 auto 50px;
+        }
+
+        h1 {
+            color: white;
+            font-family:Helvetica, sans-serif;
+            text-align: center;
+
+        }
+
+        h2 {
+            color: #969696;
+            font-family: Helvetica, sans-serif;
+            margin-left: 20px;
+            
+        }
+
+        .popisek {
+            display: block;
+            width: fit-content;
+            max-width: 80%;
+            margin: 0 auto 20px auto;
+            padding: 10px 18px;
+            border-radius: 10px;
+            background-color: #1a202c;
+            color: #e0e0e0;
+            font-size: 14px;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        .steps {
+            padding-left: 2rem;
+            list-style-position: inside;
+        }
+
+        .steps li {
+            border: 2px solid #171e2d;
+            background: #171e2d;
+            margin-bottom: 10px;
+            padding: 12px;
+            border-radius: 10px;
+        }
+
+        a {
+            color: #68b3fa;
+            text-decoration: none;
+        }
