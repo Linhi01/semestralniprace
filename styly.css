@@ -11,10 +11,6 @@ body {
             padding: 10px 30px;
         }
 
-        .logo {
-            
-        }
-
         .page {
             max-width: 100%;
             margin: 0 auto 50px;
@@ -27,7 +23,7 @@ body {
             padding: 20px;
             border-radius: 10px;
             color: #c3c3c3;
-
+            text-align: center;
 
         }
 
@@ -44,6 +40,7 @@ body {
             color: #969696;
             font-family: Helvetica, sans-serif;
             margin-left: 20px;
+            text-align: center;
             
         }
 
@@ -63,4 +60,7 @@ body {
         a {
             color: #68b3fa;
             text-decoration: none;
+            a:hover {
+                color: #add8ff;
+            }
         }
