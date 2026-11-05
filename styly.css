@@ -11,12 +11,9 @@ body {
             padding: 10px 30px;
         }
 
-        .logo {
-
-        }
-
         .page {
-            max-width: 100%;
+            max-width: 1100px;
+            width: calc(100% - 80px);
             margin: 0 auto 50px;
         }
 
@@ -31,6 +28,7 @@ body {
             color: #969696;
             font-family: Helvetica, sans-serif;
             margin-left: 20px;
+            text-align: center;
             
         }
 
@@ -49,6 +47,8 @@ body {
         }
 
         .steps {
+            max-width: 1000px;
+            margin: 0 auto;
             padding-left: 2rem;
             list-style-position: inside;
         }
