@@ -11,9 +11,9 @@ body {
             padding: 10px 30px;
         }
 
+
         .page {
-            max-width: 1100px;
-            width: calc(100% - 80px);
+            max-width: 100%;
             margin: 0 auto 50px;
         }
 
@@ -46,14 +46,12 @@ body {
             line-height: 1.5;
         }
 
-        .steps {
-            max-width: 1000px;
-            margin: 0 auto;
+        .kroky {
             padding-left: 2rem;
             list-style-position: inside;
         }
 
-        .steps li {
+        .kroky li {
             border: 2px solid #171e2d;
             background: #171e2d;
             margin-bottom: 10px;
@@ -64,4 +62,12 @@ body {
         a {
             color: #68b3fa;
             text-decoration: none;
+        }
+
+        .uvod {
+            border: 2px solid #0d1320;
+            background: #0d1320;
+            margin-bottom: 10px;
+            padding: 12px;
+            border-radius: 10px;
         }
